@@ -17,7 +17,7 @@ namespace NotficationApp.Classes
         {
             if (new Random().Next(0, 5) == 0)
                 throw new Exception("Сервер не доступен");
-            Logger.Log($"Push-уведомление отображено: {message}", Name);
+            Logger.LogInfo($"Push-уведомление отображено: {message}", Name);
         }
     }
 }

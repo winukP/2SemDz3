@@ -15,7 +15,7 @@ namespace NotficationApp.Classes
 
         public void Send(string message)
         {
-            Logger.Log($"Письмо отправлено: {message}", Name);
+            Logger.LogInfo($"Письмо отправлено: {message}", Name);
         }
     }
 }

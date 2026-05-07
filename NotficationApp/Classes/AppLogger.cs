@@ -9,7 +9,7 @@ namespace NotficationApp.Classes
         public event Action<string> OnLogReceived;
         private readonly string Path = @"..\..\..\Logs\log.txt";
 
-        public void Log(string message, string serviceName)
+        public void LogInfo(string message, string serviceName)
         {
             string fullMsg = $"[{DateTime.Now:HH:mm:ss}] [{serviceName}]: {message}";
             WriteToFile(fullMsg);

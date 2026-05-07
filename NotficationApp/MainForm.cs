@@ -113,7 +113,7 @@ namespace NotficationApp
             {
                 ResetUI();
                 isDiscoCancelled = true;
-                Logger.LogSecret("ВНИМАНИЕ: Активирован протокол 13. Система переходит в скрытый режим.");
+                Logger.LogSecret("ВНИМАНИЕ: Активирован протокол 666. Система переходит в скрытый режим.");
 
                 this.BackColor = Color.Black;
                 rtbLogs.BackColor = Color.FromArgb(20, 20, 20); 
@@ -133,7 +133,7 @@ namespace NotficationApp
                 cmbServices.FlatStyle = FlatStyle.Flat;
                 cmbServices.BackColor = Color.Black;
                 cmbServices.ForeColor = Color.Red;
-                MessageBox.Show("Вы потревожили систему...", "Протокол 13", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Вы потревожили систему...", "Протокол 666", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 txtMessage.Clear();
                 txtMessage.Focus();
                 return;
